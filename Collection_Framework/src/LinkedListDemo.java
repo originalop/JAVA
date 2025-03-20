@@ -11,7 +11,8 @@ public class LinkedListDemo {
         while (true) {
             System.out.println("1. Add at the end");// Append at the last
             System.out.println("2. Add at specified index");// Add at the specified index
-            System.out.println("3. Exit");
+            System.out.println("3. Add first");
+            System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
             switch (choice) {
@@ -28,6 +29,11 @@ public class LinkedListDemo {
                     list.add(index, insVal);
                     break;
                 case 3:
+                    System.out.print("Enter insert value: ");
+                    insVal = sc.nextInt();
+                    list.addFirst(insVal);
+                    break;
+                case 4:
                     System.exit(0);
                 default:
                     System.out.println("Invalid input");
