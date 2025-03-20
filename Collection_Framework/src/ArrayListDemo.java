@@ -10,7 +10,7 @@ public class ArrayListDemo {
         int srcVal;
 
         while (true) {
-            System.out.println("1. Push");
+            System.out.println("1. Add at the end");
             System.out.println("2. Add at specific index");
             System.out.println("3. Get value from specific index");
             System.out.println("4. Replace");
