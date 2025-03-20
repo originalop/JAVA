@@ -12,18 +12,18 @@ public class LinkedListDemo {
             System.out.println("1. Add at the end");// Append at the last
             System.out.println("2. Add at specified index");// Add at the specified index
             System.out.println("3. Exit");
-            System.out.println("Enter your choice: ");
+            System.out.print("Enter your choice: ");
             choice = sc.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.println("Enter insert value: ");
+                    System.out.print("Enter insert value: ");
                     insVal = sc.nextInt();
                     list.add(insVal);
                     break;
                 case 2:
-                    System.out.println("Enter insert value: ");
+                    System.out.print("Enter insert value: ");
                     insVal = sc.nextInt();
-                    System.out.println("Enter index: ");
+                    System.out.print("Enter index: ");
                     index = sc.nextInt();
                     list.add(index, insVal);
                     break;
