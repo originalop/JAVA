@@ -5,6 +5,7 @@ public class LinkedListClassDemo {
         LinkedList<Integer> ll = new LinkedList<Integer>();
         int choice;
         Integer val;
+        Integer remVal;
         Scanner sc = new Scanner(System.in);
         try {
             while (true) {
@@ -60,7 +61,8 @@ public class LinkedListClassDemo {
                     case 10:
                         System.out.print("Enter remove value: ");
                         val = sc.nextInt();
-                        System.out.println("Removed value: " + (ll.remove(val)));
+                        // remVal = ll.remove(val);
+                        System.out.println(((ll.remove(val))) ? "Removed" : "Not removed");
                         break;
                 }
             }
