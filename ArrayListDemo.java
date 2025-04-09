@@ -7,7 +7,7 @@ public class ArrayListDemo {
         int choice;
         int x;
         Integer val;
-        Integer remval;
+        // Integer remval;
         try {
             while (true) {
                 System.out.println("1. Add at the end");
@@ -57,6 +57,7 @@ public class ArrayListDemo {
                         System.out.println("Total size is: " + al.size());
                         break;
                     case 8:
+                        sc.close();
                         System.exit(0);
                         break;
                 }

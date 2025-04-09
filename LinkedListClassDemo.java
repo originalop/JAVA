@@ -5,7 +5,7 @@ public class LinkedListClassDemo {
         LinkedList<Integer> ll = new LinkedList<Integer>();
         int choice;
         Integer val;
-        Integer remVal;
+        // Integer remVal;
         Scanner sc = new Scanner(System.in);
         try {
             while (true) {
@@ -56,6 +56,7 @@ public class LinkedListClassDemo {
                         System.out.println("Size: " + ll.size());
                         break;
                     case 9:
+                        sc.close();
                         System.exit(0);
                         break;
                     case 10:
