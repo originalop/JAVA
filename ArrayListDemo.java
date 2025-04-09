@@ -27,7 +27,7 @@ public class ArrayListDemo {
                         al.add(val);
                         break;
                     case 2:
-                        Iterator it = al.iterator();
+                        Iterator<Integer> it = al.iterator();
                         while (it.hasNext()) {
                             System.out.print(it.next() + "\t");
                         }
