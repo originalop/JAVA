@@ -61,7 +61,6 @@ public class ArrayListDemo {
                         break;
                 }
             }
-
         } catch (Exception e) {
             System.out.println(e);
         }

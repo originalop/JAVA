@@ -3,7 +3,7 @@ import java.util.*;
 public class StackDemo {
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<Integer>();
-        Iterator i = s.iterator();
+        // Iterator<Integer> i = s.iterator();
         Scanner sc = new Scanner(System.in);
         Integer val;
         try {
@@ -48,6 +48,7 @@ public class StackDemo {
                         }
                         break;
                     case 7:
+                        sc.close();
                         System.exit(0);
                 }
             }

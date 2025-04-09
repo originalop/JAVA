@@ -11,7 +11,7 @@ public class LinkedHashsetDemo {
             System.out.println(i);
         }
 
-        Iterator i = lhs.iterator();
+        Iterator<String> i = lhs.iterator();
         while (i.hasNext()) {
             String s = (String) i.next();
             System.out.println(s);
