@@ -1,5 +1,3 @@
-# Singly linear linked list program for beginners
-```
 // Node class
 class Node {
     int data;
@@ -57,4 +55,3 @@ public class Si {
         list.display();  // Output: 10 -> 20 -> 30 -> null
     }
 }
-```
